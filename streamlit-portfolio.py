@@ -110,7 +110,7 @@ if page == "Home":
         if uploaded_image is not None:
             st.image(uploaded_image, width=200, caption="Uploaded image")
         else:
-            st.image("my_profile.jpg", width=200, caption="Default image")
+            st.image("my_profile.jfif", width=200, caption="Default image")
 
     with col2:
         # Student details (Editable!)
